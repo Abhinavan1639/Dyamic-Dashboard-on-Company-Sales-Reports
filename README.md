@@ -1,51 +1,25 @@
-<h1 align="center">📊 Dynamic-Dashboard-on-Company-Sales-Reports 📊</h1>
-<p align="center">
-<img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" /> 
-</p>
+[<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://www.anychart.com)
 
-👩‍💻 [**Dashboard Link**](https://1drv.ms/x/s!AmnXTChaxVWhfl3_WnzmhuZFVco?e=xKun57)
+## Sales Dashboard - Wine Sale in France
+This is an example which covers the basics of any sales dashboard. We did our best to make it visually appealing and easy to grasp.
 
-Created dynamic and interactive Excel dashboard. The dashboard showcase the most important information and various KPI that can be formed using the cookie company data. The major excel tool used is pivot table and pivot charts.
+Example contains four tabs: The first tab - is a general view - it allows to assess the situation as a whole, the other three tabs intend to reveal the situation for particular categories of products, sales team advances and evaluation of sales by region.
 
-![Dashboard](/images/dashboard.PNG)
+The solution is dedicated to the wines of France - a pleasant topic to think about. But don't forget that according to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects and that consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health problems.
 
-[Download the excel file](https://github.com/balirampansare/Excel-Interactive-Dashboard/blob/main/Excel%20Interactive%20Dashboard.xlsx)
+[<img src="https://static.anychart.com/images/github/sales_dashboard_1.png" alt="Sales Dashboard | AnyChart">](https://www.anychart.com/solutions/sales-dashboard-solution/)
 
-1. **Data Sheet**
+[<img src="https://static.anychart.com/images/github/sales_dashboard_2.png" alt="Sales Dashboard | AnyChart">](https://www.anychart.com/solutions/sales-dashboard-solution/)
 
-    Data sheet include the data of the cookie company with the column heading as country, revenue, profit and many other parameter. For data i had applied filter only for the year 2020 year.
+[<img src="https://static.anychart.com/images/github/sales_dashboard_3.png" alt="Sales Dashboard | AnyChart">](https://www.anychart.com/solutions/sales-dashboard-solution/)
 
-    1. Convert the data into table
-    2. Insert pivot table 
+[<img src="https://static.anychart.com/images/github/sales_dashboard_4.png" alt="Sales Dashboard | AnyChart">](https://www.anychart.com/solutions/sales-dashboard-solution/)
 
-    ![Data](/images/data.PNG)
+## Links
+* [This Sales Dashboard Demo at AnyChart.Com](https://www.anychart.com/solutions/sales-dashboard-solution/)
+* [Other Interactive Dashboard Samples at AnyChart.com](https://www.anychart.com/solutions/)
+* [Documentation](https://docs.anychart.com)
+* [JavaScript API Reference](https://api.anychart.com)
+* [Code Playground](https://playground.anychart.com)
+* [Technical Support](https://www.anychart.com/support)
 
-2. **Profit By Country And Cookie Type**
-
-    Insert the pivot table where country as the row labels, cookie name as the column labels and profit as the values in the pivot field list. Then apply bar pivot chart.
-
-    ![Profit By Country and Cookie Type](/images/country_profit.PNG)
-
-3. **Units Sold Each Month**
-
-    Insert the pivot table where month as the row labels and units sold as the values. Then apply line chart.
-
-    ![Units Sold Each Month](/images/unit_sold_each_month.PNG)
-
-4. **Product Wise Units Sold**
-
-    Insert the pivot table where Product as the row labels and units sold as the values. Then the donut chart.
-
-    ![Product Wise Units Sold](/images/unit%20product%20sold.PNG)
-
-5. **Monthly Profit**
-
-    Insert the pivot table where Month as row labels and Profit as values. Then insert the line chart.
-
-    ![Monthly Profit](/images/month_profit.PNG)
-
-6.  **Slicer**
-
-    Select the chart and insert slicer from going to the pivot analyze. Connect slicer to all the pivot table.
-
-    ![Slicer](/images/slicer.PNG)
